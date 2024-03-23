@@ -7,6 +7,10 @@
   src: url('./fonts/Gilroy-Medium.ttf');
 }
 @font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./fonts/Gilroy-Regular.ttf');
+}
+@font-face {
   font-family: 'Gilroy-Semibold';
   src: url('./fonts/Gilroy-Semibold.ttf');
 }
@@ -83,11 +87,7 @@ p{
   font-size: 14px;
 
 }
-.main {
-  margin-bottom: 197px;
-  
 
-}
 .home{
 color: red;
 font-family: 'Gilroy-Semibold';}
@@ -95,7 +95,8 @@ font-family: 'Gilroy-Semibold';}
 
 .mainContent{
   display: flex;
-  justify-content:space-between;}
+  justify-content:space-between;
+  margin-bottom: 197px;}
 
   .mainContent img{
   }
@@ -121,7 +122,8 @@ font-family: 'Gilroy-Semibold';}
     .mainContent_leftSide-btnList{
       display: flex;
   
-      width:302px;height: 50px;
+      width:302px;
+      height: 50px;
       justify-content: space-between;
     }
   
@@ -135,7 +137,7 @@ font-family: 'Gilroy-Semibold';}
   border: none;
   font-family: 'Gilroy-Bold';
 }
-  .watch_video{
+.watch_video{
     color: #AAAAAA;
     background: none;
 
@@ -146,9 +148,202 @@ font-family: 'Gilroy-Semibold';}
 
   }
 
-  .footer {
-    margin-bottom: 243px;}
-    .logos {
+
+  .logos {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 243px;
     }
+
+.cardList {
+      display: flex;
+      gap: 30px;
+      padding: 100px;
+  
+    
+      }
+.cardV {
+      background: #FFFFFF;
+        box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+        
+        }
+        .card{
+          padding-bottom: 30px;
+        gap: 30px;
+        padding-left: 40px;
+        padding-right: 31px;
+        padding-top: 35px;
+        }
+
+.card img{
+          
+          padding: 22.5px;
+          border-radius: 15px;
+          cursor: pointer;
+          border: none;
+          width: 25px;
+          height: 25px;
+          margin-bottom: 25px;
+    
+
+
+        
+        }
+.vector{
+        background-color: #F2582240;}
+        .flash{
+        background-color: #14921147;}
+        .price{background-color:#FFCD1D3D;}
+.card h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-bottom: 17px;
+
+}
+.card p {
+  font-family: 'Gilroy-Regular';
+  font-size: 15px;
+  line-height: 150%;
+  width:310px;
+  margin-bottom: 25px;
+
+
+}
+.card h3 {
+  font-family: 'Gilroy-Bold';
+  font-size: 11px;
+  line-height: 150%;
+  
+}
+.secondList {
+background-color: #FAFAFA;
+/*display: flex;
+align-items: center;
+text-align: center;*/
+
+
+}
+.cardList_sec {
+  /*display: flex;
+ 
+  gap: 30px;
+  padding-bottom: 100px;
+  align-items: center;
+  text-align: center;*/
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 30px;
+ 
+
+
+  }
+
+.choose_text h1 {
+ font-size: 45px;
+line-height : 53px;
+padding-bottom: 19px;
+}
+.choose_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 92px;
+  padding-bottom: 55px;
+  width:690px;
+  height: 123px;
+  margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.choose_text p {
+  font-family: 'Gilroy-Regular';
+  display: flex;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  width:690px;
+  height: 48px;
+
+
+}
+.card_sec img{
+  display: block;
+  width: 370px;
+  height: 270px;
+  padding: 0px;
+  margin-bottom: 25px;
+
+}
+.card_sec {
+       
+
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+        
+       
+
+      
+      }
+
+
+  .card_sec h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    /*margin-left: 83px;*/
+
+  
+  }
+  .card_sec p {
+    font-family: 'Gilroy-Regular';
+    display: flex;
+    font-size: 15px;
+    line-height: 150%;
+    width:310px;
+    margin-bottom: 39px;
+    text-align: center;
+    justify-content: center;
+    /*margin-left: 30px;*/
+    
+  
+  
+  }
+  .card_sec button {
+  width: 150px;
+height: 50px;
+
+background: #F25822;
+box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+border-radius: 50px;
+font-family: 'Gilroy-Bold';
+font-size: 13px;
+line-height: 150%;
+
+color: #FFFFFF;
+margin-bottom: 50px;
+  
+  
+  }
+  .ill2 {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+/*.cardV {
+  background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    
+    }*/
+   
